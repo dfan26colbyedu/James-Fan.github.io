@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="370c818b-a31c-41bb-a847-e0053f261076" name="Changes" comment="Changed to a different template." />
+    <list default="true" id="370c818b-a31c-41bb-a847-e0053f261076" name="Changes" comment="Changed some pictures." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/CS321/PersonalSite/James-Fan.github.io/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,6 +49,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CS321\PersonalSite\James-Fan.github.io\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CS321\PersonalSite\James-Fan.github.io\images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="37cae5b9-e8b2-4949-9172-aafa37fbc09c" uri="http://localhost:63342/James-Fan.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -70,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729300442648</updated>
-      <workItem from="1729300444039" duration="347000" />
+      <workItem from="1729300444039" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="Changed to a different template.">
       <option name="closed" value="true" />
@@ -80,7 +92,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729300493985</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed some pictures.">
+      <option name="closed" value="true" />
+      <created>1729300962309</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729300962309</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed some pictures.">
+      <option name="closed" value="true" />
+      <created>1729301113218</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729301113218</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed to a different template." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed to a different template." />
+    <MESSAGE value="Changed some pictures." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed some pictures." />
   </component>
 </project>
