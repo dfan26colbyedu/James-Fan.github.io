@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Model Viewer</title>
+  <style>
+    #model-container {
+      width: 800px;  /* Define the width */
+      height: 600px;  /* Define the height */
+      margin: 0 auto;  /* Center the div */
+      border: 1px solid black;  /* Optional border to make the div visible */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Container for the Three.js model -->
+<div id="model-container"></div>
+
+<!-- Add Three.js and OBJLoader -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/loaders/OBJLoader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/postprocessing/EffectComposer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/postprocessing/RenderPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/postprocessing/TAARenderPass.js"></script>
+
+<!-- Your custom 3D model script -->
+<script src="assets/js/threejs-model.js"></script>
+
+</body>
+</html>
