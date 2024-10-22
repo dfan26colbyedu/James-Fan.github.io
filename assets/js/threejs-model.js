@@ -37,10 +37,10 @@ scene.add(ambientLight);
 
 console.log("Ambient light added");
 
-const gridHelper = new THREE.GridHelper(10, 10);
-scene.add(gridHelper);
-
-console.log("Grid helper added to the scene");
+// const gridHelper = new THREE.GridHelper(10, 10);
+// scene.add(gridHelper);
+//
+// console.log("Grid helper added to the scene");
 
 const whiteMaterial = new THREE.MeshStandardMaterial({ color: 0xffffff });  // Use MeshStandardMaterial for better lighting interaction
 console.log("Default white material created");
@@ -74,7 +74,7 @@ objLoader.load('Models/Exporter.obj', function(object) {
     function animate() {
         requestAnimationFrame(animate);
 
-        object.rotation.y += 0.01;  // Slow rotation around Y-axis
+        object.rotation.y += 0.001;  // Slow rotation around Y-axis
 
         renderer.render(scene, camera);
     }

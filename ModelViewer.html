@@ -1,22 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>3D Model Viewer</title>
+  <title>Hello</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+</head>
+
+<body>
+
+<!-- Title -->
+<h1 id="title">3D Model Viewer</h1>
+
+<!-- Description Text Block -->
+<p id="description">
+  This is a description of the 3D model. You can rotate the model, zoom in, and explore it in detail.
+</p>
+
+<!-- Container for the Three.js model -->
+<div id="model-container">
   <style>
+    body {
+      background-color: transparent; /* Transparent background */
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
     #model-container {
       width: 800px;  /* Define the width */
       height: 600px;  /* Define the height */
       margin: 0 auto;  /* Center the div */
-      border: 1px solid black;  /* Optional border to make the div visible */
+      border: none;  /* No border */
+      background-color: transparent; /* Make model container background transparent */
+    }
+    #title {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 20px;
+    }
+    #description {
+      text-align: center;
+      font-size: 16px;
+      margin: 20px auto;
+      width: 800px;
     }
   </style>
-</head>
-<body>
-
-<!-- Container for the Three.js model -->
-<div id="model-container"></div>
+</div>
 
 <!-- Add Three.js and OBJLoader -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>

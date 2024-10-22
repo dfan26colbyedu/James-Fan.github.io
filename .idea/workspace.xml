@@ -4,12 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba57c6cf-d3ea-4ad3-a9e1-b9d1bc21ea27" name="Changes" comment="Changed a template.">
-      <change afterPath="$PROJECT_DIR$/ModelViewer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Exporter.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/threejs-model.js" afterDir="false" />
+    <list default="true" id="ba57c6cf-d3ea-4ad3-a9e1-b9d1bc21ea27" name="Changes" comment="Added a 3D component.">
+      <change afterPath="$PROJECT_DIR$/images/3DArt1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3DArt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3DArt3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3DArt4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3DArt5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Archvis1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Archvis2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Archvis3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Archvis4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Archvis5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Noryea9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/PhysicsCalculator1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelViewer.html" beforeDir="false" afterPath="$PROJECT_DIR$/ModelViewer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/threejs-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/threejs-model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/generic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -68,11 +93,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CS321\PersonalSite\James-Fan.github.io\images" />
       <recent name="D:\CS321\PersonalSite\James-Fan.github.io\Models" />
       <recent name="D:\CS321\PersonalSite\James-Fan.github.io" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ModelViewer.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="ModelViewer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="37cae5b9-e8b2-4949-9172-aafa37fbc09c" uri="http://localhost:63342/James-Fan.github.io/ModelViewer.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -81,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.ModelViewer.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.ModelViewer.html" />
       </list>
     </recent_temporary>
   </component>
@@ -102,6 +128,10 @@
       <option name="presentableId" value="Default" />
       <updated>1729459852579</updated>
       <workItem from="1729459853811" duration="5903000" />
+      <workItem from="1729480817523" duration="275000" />
+      <workItem from="1729531806622" duration="1027000" />
+      <workItem from="1729553333132" duration="1490000" />
+      <workItem from="1729554923217" duration="8596000" />
     </task>
     <task id="LOCAL-00001" summary="Changed a template.">
       <option name="closed" value="true" />
@@ -111,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729459920244</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a 3D component.">
+      <option name="closed" value="true" />
+      <created>1729480908240</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729480908240</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +157,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed a template." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a template." />
+    <MESSAGE value="Added a 3D component." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a 3D component." />
   </component>
 </project>
