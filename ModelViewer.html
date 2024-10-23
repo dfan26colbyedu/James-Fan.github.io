@@ -6,57 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
   <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
 </head>
 
 <body>
 
-<!-- Title -->
+
 <h1 id="title">3D Model Viewer</h1>
 
-<!-- Description Text Block -->
+
 <p id="description">
-  This is a description of the 3D model. You can rotate the model, zoom in, and explore it in detail.
+  Models of the Procedurally Generated Norian Creatures. Use mouse to rotate and mouse wheel to zoom.
 </p>
 
-<!-- Container for the Three.js model -->
+
 <div id="model-container">
   <style>
     body {
-      background-color: transparent; /* Transparent background */
+      background-color: black; /* Transparent background */
       margin: 0;
       padding: 0;
-      font-family: 'Arial', sans-serif;
+      font-family: 'Merriweather', sans-serif;
     }
     #model-container {
-      width: 800px;  /* Define the width */
-      height: 600px;  /* Define the height */
+      width: 2400px;  /* Define the width */
+      height: 1200px;  /* Define the height */
       margin: 0 auto;  /* Center the div */
       border: none;  /* No border */
       background-color: transparent; /* Make model container background transparent */
     }
     #title {
       text-align: center;
-      font-size: 24px;
+      font-size: 64px;
       margin-top: 20px;
+      color: white;
     }
     #description {
       text-align: center;
-      font-size: 16px;
+      font-size: 24px;
       margin: 20px auto;
       width: 800px;
+      color: white;
     }
   </style>
 </div>
 
-<!-- Add Three.js and OBJLoader -->
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/loaders/OBJLoader.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/postprocessing/EffectComposer.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/postprocessing/RenderPass.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/postprocessing/TAARenderPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/controls/OrbitControls.js"></script>  <!-- OrbitControls -->
 
-<!-- Your custom 3D model script -->
+
 <script src="assets/js/threejs-model.js"></script>
 
 </body>
